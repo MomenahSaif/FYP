@@ -1,0 +1,12 @@
+.container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background: linear-gradient(to bottom right, #802e2e, #bf3a41);
+  min-height: 100vh;
+}
+
+.main {
+    text-align: center;
+    padding: 50px 20px;
+    min-height: 100%; /* Ensure it covers full height */
+}

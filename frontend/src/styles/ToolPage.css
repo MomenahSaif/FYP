@@ -1,0 +1,174 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.settings-icon-container {
+    position: relative;
+}
+
+.settings-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* User info dropdown */
+.user-info-slider {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    width: 200px; /* Set a fixed width for the dropdown */
+}
+
+/* Styles for the settings options */
+.settings-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.settings-options li {
+    cursor: pointer; /* Pointer cursor for clickable items */
+    padding: 10px; /* Padding for better spacing */
+    transition: background 0.3s; /* Transition for hover effect */
+    border-bottom: 1px solid #e0e0e0; /* Divider line between items */
+}
+
+.settings-options li:last-child {
+    border-bottom: none; /* Remove border for last item */
+}
+
+.settings-options li:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+}
+
+/* Upload container styles */
+/* Adjustments to center the upload container */
+.upload-container {
+    background-color: white; /* White background for the upload area */
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 500px; /* Limit width to match design */
+    margin: 50px auto; /* Center and slightly lower the section */
+}
+
+/* Title and subtitle styles */
+.upload-title {
+    margin-bottom: 20px;
+    color: #333; /* Change title text color */
+}
+
+/* File upload button styles */
+.file-upload-area {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the file upload area */
+    margin-bottom: 10px;
+}
+
+.file-upload-btn {
+    background-color: #4e4b4b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+}
+
+.file-upload-btn input {
+    display: none;
+}
+
+.file-name {
+    font-size: 16px;
+    color: #333; /* Dark text color for file name */
+    margin-left: 10px;
+}
+
+.remove-file {
+    color: #ff0000; /* Red color for the 'x' */
+    cursor: pointer;
+}
+
+/* Analysis type styles */
+.analysis-type {
+    margin-bottom: 20px;
+    text-align: center; /* Center the analysis type text */
+}
+
+.analysis-type-title {
+    color: #333; /* Dark color for analysis type title */
+}
+
+/* Button styles */
+.submit-btn {
+    background-color: #ff0000; /* Red color for submit button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.submit-btn:disabled {
+    background-color: #b3b3b3; /* Greyed out when processing */
+}
+
+/* Trusted logos section */
+.trusted-logos {
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logos img {
+    height: 40px;
+    opacity: 0.7;
+}
+
+.logos img:hover {
+    opacity: 1;
+}
+
+/* Red background text styles */
+.title,
+.subtitle {
+    color: white; /* Change text color to white */
+}
+
+.Text2
+{
+   color:#ffffff ;
+   font-size:35px ;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.Text3
+{
+    color:#ffffff;
+    font-size:25px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}

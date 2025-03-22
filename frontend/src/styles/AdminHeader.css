@@ -1,0 +1,97 @@
+.logo-highlight {
+    color: red; /* "X" will be red */
+  }
+  
+  /* Header styles */
+  .Adminheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .admin-settings-icon-container {
+    position: relative;
+  }
+  
+  .admin-settings-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  /* User info dropdown */
+  .admin-user-info-slider {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 1;
+    width: 220px; /* Increased width for better spacing */
+  }
+  
+  /* Settings options */
+  .admin-settings-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .admin-settings-options li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .admin-settings-options li:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  /* Icons in menu */
+  .admin-menu-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    vertical-align: middle;
+  }
+  
+  /* Logout option styling */
+  .logout-option {
+    color: red;
+    font-weight: bold;
+  }
+  
+  
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+  }
